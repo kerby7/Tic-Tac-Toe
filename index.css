@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+  background-color: #000000;
+}
+
+.container {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+.title-h1 {
+  color: #fff;
+  margin-bottom: 3rem;
+}
+
+.btn {
+  width: 150px;
+  height: 60px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50px;
+  border: 1px solid white;
+  background: #000000;
+  font-size: 16px;
+  color: #fff;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.box {
+  display: flex;
+  height: 180px;
+  width: 180px;
+  background: #0e616e;
+  border: 4px solid #000000;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.board {
+  height: 600px;
+  width: 564px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.box img {
+  margin: 50px 50px;
+}
+
+.title-h1 img {
+  position: relative;
+  top: 24;
+  padding: 20px 20px;
+  height: 90px;
+}
+
+/* Responsive design for phone */
+@media (max-width: 1200px) {
+  .container {
+    margin-top: 250px;
+  }
+}
+
+@media (max-width: 990px) {
+  .container {
+    margin-top: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin-top: 130px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .container {
+    margin-top: 150px;
+  }
+  .box {
+    height: 100px;
+    width: 100px;
+  }
+
+  .board{
+    height: 300px;
+    width: 300px;
+  }
+
+  .btn{
+    height: 50px;
+    width: 100px;
+  }
+
+  .title-h1{
+    font-size: 25px;
+  }
+}
